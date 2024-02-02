@@ -97,7 +97,7 @@ int main(void)
 ### Output Check
 Your output should after compiling the program should look something like what's displayed below.
 ```
-princemekajoel:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
+princeemekajoel:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
 princeemekajoel:~/c/printf$ ./printf
 Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
@@ -135,5 +135,6 @@ It should be noted that our code does not handle the following conditions:
 ### About
 All files were created and compiled on `Ubuntu 20.04` using `GCC 4.8.4`
 ## Authors
-* Prince Joel
+* Peter Akinpelumi
 * Chinemerem Okonkwo
+
