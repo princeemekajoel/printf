@@ -136,4 +136,4 @@ It should be noted that our code does not handle the following conditions:
 All files were created and compiled on `Ubuntu 20.04` using `GCC 4.8.4`
 ## Authors
 * Prince Joel
-*Chinemerem Okonkwo
+* Chinemerem Okonkwo
