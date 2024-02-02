@@ -48,7 +48,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c
 You'll make a main.c file to test the program, in order to see if the custom _printf function works exactly like how regular printf manages to display the number of characters printed.
 The main.c file should contain the code displayed below. (Feel free to change the code inside main.c to test for any other test cases not currently displayed.)
 ```
-gideon@GideonIsBuilding:~/c/printf$ cat main.c
+princeemekajoel:~/c/printf$ cat main.c
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
@@ -97,8 +97,8 @@ int main(void)
 ### Output Check
 Your output should after compiling the program should look something like what's displayed below.
 ```
-gideon@GideonIsBuilding:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
-gideon@GideonIsBuilding:~/c/printf$ ./printf
+princemekajoel:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
+princeemekajoel:~/c/printf$ ./printf
 Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
 Length:[39, 39]
@@ -123,7 +123,7 @@ Len:[12]
 Len:[12]
 Unknown:[%r]
 Unknown:[%r]
-gideon@GideonIsBuilding:~/c/printf$
+princeemekajoel:~/c/printf$
 ```
 ### Bugs
 It should be noted that our code does not handle the following conditions:
